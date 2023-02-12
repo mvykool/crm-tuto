@@ -2,6 +2,20 @@ body, html{
   overflow-x: hidden;
   margin: 0;
   padding: 0;
-  background-color: rgb(0, 0, 34);
-  color: aliceblue;
+}
+
+.app{
+  display: flex;
+}
+
+/*navbar*/
+
+nav{
+  height: 100vh;
+  background: rgb(43, 43, 63);
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
