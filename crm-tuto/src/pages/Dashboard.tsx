@@ -33,7 +33,7 @@ const Dashboard = () => {
   category: "q2, 2022",
   color: "blue",
   title: "build and bot",
-  owner: "ania kubow",
+  owner: "john doe",
   avatar: "https://www.freecodecamp.org/news/content/images/size/w150/2021/05/ania-kubow-gravatar.jpeg",
   status: "working on it",
   priority: "3",
