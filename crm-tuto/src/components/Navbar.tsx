@@ -8,7 +8,7 @@ const Navbar = () => {
   
   return (
     <nav>
-      <div className='logo-container'>Logo</div>
+      <div className='logo-container'><p className='logo-img'>logo</p></div>
           
       <div className='controls-container'>
           <div className='icon' onClick={() => navigate('/ticket')}>+</div>

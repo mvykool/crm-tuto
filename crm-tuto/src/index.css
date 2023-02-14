@@ -4,7 +4,7 @@ body, html{
   padding: 0;
 }
 
-.app{
+.App{
   display: flex;
 }
 
@@ -18,4 +18,21 @@ nav{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+nav .logo-container,
+nav .controls-container {
+  padding:  40px 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+nav .logo-container,
+nav .logo-img {
+  width: 20px;
+}
+
+nav .icon {
+  color: white;
+  
 }
