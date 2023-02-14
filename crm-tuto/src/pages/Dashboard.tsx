@@ -4,7 +4,8 @@ import TicketCard from '../components/TicketCard'
 const Dashboard = () => {
 
 
-  const tickets = [{
+  const tickets = [
+    {
      category: "q1, 2022",
      color: "red",
      title: "NFT safety 101",
@@ -15,7 +16,32 @@ const Dashboard = () => {
      progress: "40",
      description: "make a video about that",
      timestamp: "2022-02-11T07"
-  }]
+  },
+  {
+    category: "q1, 2022",
+    color: "red",
+    title: "build and sell API",
+    owner: "ania kubow",
+    avatar: "https://www.freecodecamp.org/news/content/images/size/w150/2021/05/ania-kubow-gravatar.jpeg",
+    status: "working on it",
+    priority: "2",
+    progress: "70",
+    description: "make a video about that",
+    timestamp: "2022-06-11T07"
+ },
+ {
+  category: "q2, 2022",
+  color: "blue",
+  title: "build and bot",
+  owner: "ania kubow",
+  avatar: "https://www.freecodecamp.org/news/content/images/size/w150/2021/05/ania-kubow-gravatar.jpeg",
+  status: "working on it",
+  priority: "3",
+  progress: "10",
+  description: "make a video about that",
+  timestamp: "2022-06-11T07"
+}
+]
 
   return (
     <div className='dashboard'>
