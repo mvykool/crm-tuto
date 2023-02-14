@@ -36,7 +36,7 @@ const Dashboard = () => {
   owner: "john doe",
   avatar: "https://www.freecodecamp.org/news/content/images/size/w150/2021/05/ania-kubow-gravatar.jpeg",
   status: "working on it",
-  priority: "3",
+  priority: "4",
   progress: "10",
   description: "make a video about that",
   timestamp: "2022-06-11T07"
