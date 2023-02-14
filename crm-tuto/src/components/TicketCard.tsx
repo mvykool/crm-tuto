@@ -2,7 +2,7 @@ import React from 'react'
 
 const TicketCard = () => {
   return (
-    <div>TicketCard</div>
+    <div className=' ticket-card'>TicketCard</div>
   )
 }
 

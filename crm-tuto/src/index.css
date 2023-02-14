@@ -36,3 +36,23 @@ nav .icon {
   color: white;
   
 }
+
+/*dashboard*/
+
+.dashboard {
+  padding: 30px;
+  width: 100%;
+}
+
+.dashboard .ticket-container{
+  height: 80vh;
+  overflow: scroll;
+}
+
+
+/*ticket card*/
+
+.ticket-card {
+  display: flex ;
+  width: 100%;
+}
