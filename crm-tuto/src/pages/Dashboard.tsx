@@ -14,7 +14,7 @@ const Dashboard = () => {
      status: "done",
      priority: "5",
      progress: "40",
-     description: "make a video about that",
+     description: "write about it",
      timestamp: "2022-02-11T07"
   },
   {
