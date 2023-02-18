@@ -26,7 +26,7 @@ const Dashboard = () => {
     status: "working on it",
     priority: "3",
     progress: "70",
-    description: "make a video about that",
+    description: "make a blog about that",
     timestamp: "2022-06-11T07"
  },
  {
@@ -41,6 +41,10 @@ const Dashboard = () => {
   description: "make a video about that",
   timestamp: "2022-06-11T07"
 }
+]
+
+const uniqueCategories = [
+  ...new Set (tickets?.map(({category}) => category))
 ]
 
   return (
