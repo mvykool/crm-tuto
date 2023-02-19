@@ -20,7 +20,7 @@ const Dashboard = () => {
   {
     category: "q1, 2022",
     color: "red",
-    title: "build and sell API",
+    title: "build and sel API",
     owner: "ania kubow",
     avatar: "https://www.freecodecamp.org/news/content/images/size/w150/2021/05/ania-kubow-gravatar.jpeg",
     status: "working on it",
