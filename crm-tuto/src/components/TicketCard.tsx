@@ -7,7 +7,13 @@ import { Link } from 'react-router-dom'
 
 import React from 'react'
 
-const TicketCard = () => {
+interface Props  {
+  color: any
+  ticket: any
+  id: any
+}
+
+const TicketCard = ({color, ticket, id}: Props) => {
   return (
     <div className=' ticket-card'>
       <div className="ticket-color">

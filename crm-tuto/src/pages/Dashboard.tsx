@@ -54,6 +54,13 @@ const uniqueCategories = [
         {tickets && uniqueCategories?.map((uniqueCategory, categoryIndex) => (
           <div key={categoryIndex}>
               <h3>{uniqueCategory}</h3>
+              {tickets.filter(ticket => ticket.category === uniqueCategory).map((filteredTicket, ticketIndex) => (
+                <TicketCard
+                id={ticketIndex}
+                color={filteredTicket.color}
+                ticket={filteredTicket}
+                />
+              ))}
           </div>
         ))}
       </div>
