@@ -51,8 +51,11 @@ const uniqueCategories = [
     <div className='dashboard'>
       <h1>crm project</h1>
       <div className='ticket-container'>
-        <TicketCard/>
-                
+        {tickets && uniqueCategories?.map((uniqueCategory, categoryIndex) => (
+          <div key={categoryIndex}>
+              <h3>{uniqueCategory}</h3>
+          </div>
+        ))}
       </div>
     </div>
   )
