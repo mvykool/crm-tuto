@@ -22,7 +22,7 @@ nav{
 
 nav .logo-container,
 nav .controls-container {
-  padding:  40px 25px;
+  padding:  40px 24px;
   display: flex;
   flex-direction: column;
 }
